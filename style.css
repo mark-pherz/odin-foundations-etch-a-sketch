@@ -1,0 +1,18 @@
+body {
+  display: grid;
+  place-items: center;
+}
+
+#container {
+  height: 960px;
+  width: 960px;
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+
+.box {
+  background-color: rgb(87, 163, 138);
+  width: 100px;
+  height: 100px;
+}
